@@ -16,7 +16,6 @@ import org.dom4j.io.SAXReader;
 
 /**
 * 消息处理工具类
-* Created by xdp on 2016/1/26.
 */
 public class MessageHandlerUtil {
 
