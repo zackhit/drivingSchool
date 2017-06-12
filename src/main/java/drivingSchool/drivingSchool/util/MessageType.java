@@ -11,5 +11,6 @@ public enum MessageType {
     SHORTVIDEO,//小视频消息
      LOCATION,//地理位置消息
      LINK,//链接消息
-     EVENT//事件消息
+     EVENT,//事件消息
+     EVENTB;//事件消息
 }

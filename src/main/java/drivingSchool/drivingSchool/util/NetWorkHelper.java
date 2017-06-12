@@ -55,6 +55,7 @@ import javax.net.ssl.X509TrustManager;
              } else {
                  con.setRequestMethod("GET"); //使用get请求
              }
+             
              is = con.getInputStream();   //获取输入流，此时才真正建立链接
              InputStreamReader isr = new InputStreamReader(is);
              BufferedReader bufferReader = new BufferedReader(isr);
@@ -64,6 +65,7 @@ import javax.net.ssl.X509TrustManager;
              }
              System.out.println(resultData);
  
+             
          } catch (Exception e) {
              e.printStackTrace();
          }

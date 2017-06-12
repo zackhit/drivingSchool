@@ -12,7 +12,6 @@ import net.sf.json.JSONObject;
 
 /**
   * 用于获取accessToken的Servlet
-  * Created by xdp on 2016/1/25.
   */
  @WebServlet(
          name = "AccessTokenServlet",

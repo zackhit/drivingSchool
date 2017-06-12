@@ -2,7 +2,6 @@ package drivingSchool.drivingSchool.domain;
 
 /**
  * AccessToken的数据模型
- * Created by xdp on 2016/1/25.
  */
 public class AccessToken {
 
